@@ -1,0 +1,5 @@
+name : AbootPatch
+args : 
+  source : /<CVP_IP>/cvpservice/image/getImagebyId
+  VRF : default
+
