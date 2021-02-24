@@ -2,3 +2,10 @@
 #The image can be downloaded from any server using https.  File source is defined in the YAML file
 #If using CVP as source for the patch file, it requires that CVP has an image bundle containing that Aboot patch file in it
 #If the installation is done over the none default VRF, change the VRF argument in the YAML config file
+
+To make this script available in CVP Change Controls:
+    - log into CVP shell as root
+    - copy the script and YAML file to a local folder 
+        > you can copy directly from github using "wget https://raw.githubusercontent.com/philippebureau/CVP_User-defined_actions_public/main/AbootCheck/AbootPatch.py https://raw.githubusercontent.com/philippebureau/CVP_User-defined_actions_public/main/AbootPatch/cfg_AbootCheck.yaml"
+    - install using script-util 
+        > ex : /cvpi/tools/script-utils upload -path AbootPatch.py -config cfg_AbootPatch.yaml 
