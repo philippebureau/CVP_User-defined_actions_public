@@ -8,4 +8,4 @@ AND will create a file (/tmp/AbootCheck.txt) with the same entries for all switc
 
 You can use comment (#) in the script to prevent file creation if it is not needed
 
-NOTE : if CVP is in cluster, the file will be created where scriptaction is running.  You can find wich node is running the service with command "cvpi status scriptaction
+NOTE : if CVP is in cluster, the file will be created where scriptaction is running.  You can find wich node is running the service with command "cvpi status scriptaction"
