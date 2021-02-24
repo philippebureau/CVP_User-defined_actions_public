@@ -19,6 +19,6 @@ vrf = scriptArgs["VRF"]
 
 alog("Running installation Aboot patch from script on %s from %s over %s VRF" % (hostname, source, vrf))
 
-target.runCmds(["cli vrf %s" % (vrf), "copy https:/%s/Aboot-patch-v1.0.2-419257.i686.rpm extension:" % (source), "extension Aboot-patch-v1.0.2-419257.i686.rpm"])
+target.runCmds(["cli vrf %s" % (vrf), "copy https:/%s extension:" % (source), "extension Aboot-patch-v1.0.2-419257.i686.rpm"])
 
 
