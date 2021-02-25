@@ -1,5 +1,6 @@
 name : AbootPatch
 args : 
-  source : /<CVP_IP>/cvpservice/image/getImagebyId/Aboot-patch-v1.0.2-419257.i686.rpm
+  extension_URL : /<CVP_IP>/cvpservice/image/getImagebyId/
   VRF : default
+  extension : <patch_file_name>
 
