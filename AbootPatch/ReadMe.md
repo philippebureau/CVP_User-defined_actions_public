@@ -1,8 +1,8 @@
-#This script will install the Aboot patch for Field Notice 044
-#The image can be downloaded from any server using https.  File source is defined in the YAML file argument "extension_URL"
-#If using CVP as source for the patch file, it requires that CVP has an image bundle containing that Aboot patch file in it
-#If the installation is done over the none default VRF, change the VRF argument in the YAML config file
-#you need to define the name of the RPM file in the YAML file argument "exention"
+This script will install the Aboot patch for Field Notice 044
+The image can be downloaded from any server using https.  File source is defined in the YAML file argument "extension_URL"
+If using CVP as source for the patch file, it requires that CVP has an image bundle containing that Aboot patch file in it
+If the installation is done over the none default VRF, change the VRF argument in the YAML config file
+you need to define the name of the RPM file in the YAML file argument "exention"
 
 
 To make this script available in CVP Change Controls:
