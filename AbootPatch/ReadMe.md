@@ -16,3 +16,4 @@ To make this script available in CVP Change Controls:
         > you can copy directly from github using "wget https://raw.githubusercontent.com/philippebureau/CVP_User-defined_actions_public/main/AbootPatch/AbootPatch.py https://raw.githubusercontent.com/philippebureau/CVP_User-defined_actions_public/main/AbootPatch/cfg_AbootPatch.yaml"
     - install using script-util 
         > ex : /cvpi/tools/script-utils upload -path AbootPatch.py -config cfg_AbootPatch.yaml 
+     
