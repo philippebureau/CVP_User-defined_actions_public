@@ -17,4 +17,5 @@ To make this script available in CVP Change Controls:
         * edit cfg_AbootPatch.yaml file arguments to match your environment
         * install using script-util 
           * ex : /cvpi/tools/script-utils upload -path AbootPatch.py -config cfg_AbootPatch.yaml
+        * validate with command '/cvpi/tools/script-util list'
 
