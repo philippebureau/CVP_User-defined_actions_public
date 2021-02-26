@@ -1,4 +1,4 @@
-#AbootPatch action
+# AbootPatch action
 
 This script will install the Aboot patch for Field Notice 044
 
