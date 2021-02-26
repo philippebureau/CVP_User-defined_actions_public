@@ -6,7 +6,7 @@ If using CVP as source for the patch file, it requires that CVP has an image bun
 
 If the installation is done over the none default VRF, change the VRF argument in the YAML config file
 
-you need to define the name of the RPM file in the YAML file argument "exention"
+you need to define the name of the RPM file in the YAML file argument "extention"
 
 
 To make this script available in CVP Change Controls:
