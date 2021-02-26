@@ -17,3 +17,4 @@ To make this script available in CVP Change Controls:
     - you can copy directly from github using `wget https://raw.githubusercontent.com/philippebureau/CVP_User-defined_actions_public/main/AbootCheck/AbootCheck.py https://raw.githubusercontent.com/philippebureau/CVP_User-defined_actions_public/main/AbootCheck/cfg_AbootCheck.yaml`
 * install using script-util 
     - `/cvpi/tools/script-utils upload -path AbootCheck.py -config cfg_AbootCheck.yaml`
+* validate with command `/cvpi/tools/script-util list`
