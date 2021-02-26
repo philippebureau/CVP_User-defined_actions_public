@@ -9,7 +9,6 @@ If the installation is done over the none default VRF, change the VRF argument i
 you need to define the name of the RPM file in the YAML file argument "exention"
 
 
-
 To make this script available in CVP Change Controls:
 
     * log into CVP shell as root
