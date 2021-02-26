@@ -1,3 +1,5 @@
+#AbootPatch action
+
 This script will install the Aboot patch for Field Notice 044
 
 The image can be downloaded from any server using https.  File source is defined in the YAML file argument "extension_URL"
