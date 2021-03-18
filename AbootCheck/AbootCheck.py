@@ -50,9 +50,9 @@ def gen_log_file(major_version, minor_version, hostname, aboot_version):
 def main():
   writetoalog = scriptArgs[ "alog" ]
   writetofile = scriptArgs[ "file" ]
-  if writetoalog = 'YES':
+  if writetoalog == 'YES':
     gen_log_to_alog(major_version, minor_version, hostname, aboot_version)
-  if writetofile = 'YES':
+  if writetofile == 'YES':
     gen_log_file(major_version, minor_version, hostname, aboot_version)
 
 
