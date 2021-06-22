@@ -4,8 +4,8 @@ This script will delete all files from /var/core/
 
 It can be used to fix switches with the bellow error message:
 
-    ' Warning: the following filesystems have less than 10% free space left: '
-    ' /var/core                    0% (   0 bytes) Available '
+    Warning: the following filesystems have less than 10% free space left:
+     /var/core                    0% (   0 bytes) Available
 
 To make this script available in CVP Change Controls:
 
