@@ -11,4 +11,4 @@ hostname = cmdResponse[1]['response']['hostname']
 
 alog("restarting TerminAttr from script on %s" % (hostname))
 
-target.runCmds(["enable", "configure", "daemon TerminAttr", "shutdown", "no shutdown")])
+target.runCmds(["enable", "configure", "daemon TerminAttr", "shutdown", "no shutdown"])
