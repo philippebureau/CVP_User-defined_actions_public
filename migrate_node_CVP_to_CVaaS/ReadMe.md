@@ -2,7 +2,11 @@
 
 This script will migrage the selected node to a CVaaS instance.
 
-The node will start streaming telemetry to the CVaaS instance which will 
+An onboarding token needs to be generated on CVaaS and defined in the argument in the YAML file
+
+If the node uses the non default VRF, it needs to be defined in the YAML file arguments
+
+The node will start streaming telemetry to the CVaaS instance which will automatically add the node in the invoentory.
 
 To make this script available in CVP Change Controls:
 
