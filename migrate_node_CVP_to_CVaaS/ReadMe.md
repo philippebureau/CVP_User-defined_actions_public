@@ -8,7 +8,7 @@ To validate if a token has expired, you can check here: https://jwt.io/
 
 If the node uses the non default VRF, it needs to be defined in the YAML file arguments
 
-The node will start streaming telemetry to the CVaaS instance which will automatically add the node in the invoentory.
+The node will start streaming telemetry to the CVaaS instance which will automatically add the node in the inventory.
 
 To make this script available in CVP Change Controls:
 
