@@ -2,19 +2,10 @@
 
 This script will migrage the selected node to a CVaaS instance.
 
-An onboarding token needs to be generated on CVaaS and defined in the argument in the YAML file.  Onboarding tokens are generic and can be used for multiple devices.  Please generate one that will be valid for the duration of the onbording.  To update the token in the YAML file, the user-defined action needs to be removed and re-added.
+An onboarding token needs to be generated on CVaaS and defined in the argument in the action "manage arguments" tab on CVP.  Onboarding tokens are generic and can be used for multiple devices.  Please generate one that will be valid for the duration of the onbording.  To update the token in the YAML file, the user-defined action needs to be removed and re-added.
 
 To validate if a token has expired, you can check here: https://jwt.io/
 
-If the node uses the non default VRF, it needs to be defined in the YAML file arguments
+The node will start streaming telemetry to the CVaaS instance which will automatically add the node in the inventory and the undefined container.
 
-The node will start streaming telemetry to the CVaaS instance which will automatically add the node in the inventory.
-
-To make this script available in CVP Change Controls:
-
-* log into CVP shell as root
-* copy the script and YAML file to a local folder 
-    * you can copy directly from github using `wget https://raw.githubusercontent.com/philippebureau/CVP_User-defined_actions_public/main/migrate_node_CVP_to_CVaaS/Migrate_to_CVaaS.py https://raw.githubusercontent.com/philippebureau/CVP_User-defined_actions_public/main/migrate_node_CVP_to_CVaaS/Migrate_to_CVaaS.yaml`
-* install using script-util 
-    * ex : `/cvpi/tools/script-util upload -path Migrate_to_CVaaS.py -config Migrate_to_CVaaS.yaml`
-* validate with command `/cvpi/tools/script-util list`
+See the TOI on how to create custom actions in CVP UI : https://www.arista.com/en/support/toi/cvp-2021-3-0/14901-ui-for-custom-action-scripts
