@@ -1,4 +1,0 @@
-name : Migrate_to_CVaaS
-args : 
-  Token : <CVaaS onboarding token>
-  VRF : default
